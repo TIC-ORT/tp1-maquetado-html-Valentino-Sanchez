@@ -1,26 +1,282 @@
-* {
-margin: 0;
-
-}
-
-body{
+body {
+    background-color: white;
+    }
+    header {
     background-color: grey;
-}
-header{
-    padding: 10px;
-}
-.header{
+    padding: 15px 30px;
+    }
+    .header {
     display: flex;
-    justify-content: flex-start;
-}
+    align-items: center;
+    }
+    .cuadradoHead1 {
+    background-color: orange;
+    height: 50px;
+    width: 300px;
+    margin-right: 500px;
+    }
+    .cuadradoHead2 {
+    background-color: white;
+    height: 20px;
+    width: 300px;
+    margin-right: 20px;
+    }
+    .cuadradoHead3 {
+    background-color: orange;
+    height: 20px;
+    width: 90px;
+   
+    }
+    nav {
+    background-color: lightgrey;
+    padding: 0px 20px;
+    }
+    .nav {
+    display: flex;
+    align-items: center;
+    }
+    .lineaNav1 {
+    background-color: black;
+    height: 20px;
+    width: 150px;
+    margin-right: 30px;
+    }
+    .lineaNav2 {
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    margin-right: 30px;
+    }
+    .lineaNav3 {
+    background-color: black;
+    height: 20px;
+    width: 150px;
+    margin-right: 30px;
+    }
+    .lineaNav4 {
+    background-color: black;
+    height: 20px;
+    width: 150px;
+    margin-right: 30px;
+    }
+    .lineaNav5 {
+    background-color: black;
+    height: 20px;
+    width: 150px;
+    }
+    main {
+    background-color: white;
+    padding: 50px 0px;
+    }
+    .main {
+    display: flex;
+    align-items: center
+    }
+    .cuadradoGris {
+    background-color: gray;
+    height: 140px;
+    width: 200px;
+    margin-right: 400px;
+    padding: 30px 40px;
+    }
+    .lineaNaranja {
+    background-color: orange;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    }
+    .lineaBlanca {
+    background-color: white;
+    height: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    }
+    .lineaBlanca2 {
+    background-color: white;
+    height: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    }
+    .lineaBlanca3 {
+    background-color: white;
+    height: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+    }
 
-.bloque{
-    height: 300px;
-    width: 200px;
-    background-color: red;
-}
-.bloque2{
-    height: 300px;
-    width: 200px;
-    background-color: violet;
-}
+
+
+
+    .otrasformas {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    margin-bottom: 10px;
+    }
+    .lineaArticle1 {
+    background-color: grey;
+    height: 10px;
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+    .lineaArticle2 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 20px;
+    }
+    .lineaArticle3 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 20px;
+    }
+    .lineaArticle4 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 80px;
+    margin-bottom: 35px;
+    }
+    .cuadradoRojoArticle {
+        background-color:lightcoral;
+        height: 100px;
+        width: 200px;
+    }
+    .barraGrisArticle {
+    background-color: grey;
+    height: 45px;
+    width: 400px;
+    margin-bottom: 50px;
+    }
+
+
+
+
+    .section{
+        display: flex;
+    }
+    .cuadroSection1 {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 300px;
+    margin-right: 120px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cuadradoSection1 {
+    background-color: grey;
+    height: 140px;
+    width: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .barra1Section1 {
+    background-color: grey;
+    height: 25px;
+    width: 180px;
+    margin-bottom: 20px;
+    }
+    .barra2Section1 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 15px;
+    }
+    .barra3Section1 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 15px;
+    }
+    .barra4Section1 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 100px;
+    margin-bottom: 15px;
+    }
+   
+    .cuadroSection2 {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 300px;
+    margin-right: 120px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cuadradoSection2 {
+    background-color: lightcoral;
+    height: 140px;
+    width: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .barra1Section2 {
+    background-color: grey;
+    height: 25px;
+    width: 180px;
+    margin-bottom: 20px;
+    }
+    .barra2Section2 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 15px;
+    }
+    .barra3Section2 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 15px;
+    }
+    .barra4Section2 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 100px;
+    margin-bottom: 15px;
+    }
+    .cuadroSection3 {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 300px;
+    margin-right: 120px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cuadradoSection3 {
+    background-color: orange;
+    height: 140px;
+    width: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .barra1Section3 {
+    background-color: grey;
+    height: 25px;
+    width: 180px;
+    margin-bottom: 20px;
+    }
+    .barra2Section3 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 15px;
+    }
+    .barra3Section3 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-bottom: 15px;
+    }
+    .barra4Section3 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 100px;
+    margin-bottom: 15px;
+    }
